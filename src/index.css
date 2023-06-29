@@ -5,9 +5,134 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(79deg,#9cd0ee , #9fdb74);
+ 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.Container{
+width:500px;
+height: 370px;
+
+margin-left: 150px;
+padding: 20px;
+border: 1px solid black;
+border-radius: 15px;
+text-align: center;
+background-image: url(https://img.freepik.com/premium-vector/network-connection-background-abstract-style_23-2148875738.jpg);
+margin-top: 100px;
+box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+input{
+  margin-top: 15px;
+  width: 80%;
+  border: 3px solid #555;
+
+  margin-bottom: 20px;
+  background-color: rgb(236, 233, 228);
+  border-radius: 5px;
+  padding: 10px;
+  
+}
+.log-btn{
+  width: 75px;
+  margin-top: 20px;
+  height: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  background-color: skyblue;
+  color: black;
+  border-radius: 5px;
+}
+.log-btn:hover{
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+
+}
+h2{
+  color: chartreuse;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  
+}
+p{
+  color: chartreuse;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+.register-btn{
+  width: 75px;
+  height: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  margin-top: 10px;
+  background-color: skyblue ;
+  color: black;
+  border-radius: 5px;
+}
+.register-btn:hover{
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+.Container-register{
+width:500px;
+height: 370px;
+margin-left: 150px;
+
+padding: 20px;
+border: 1px solid black;
+border-radius: 15px;
+text-align: center;
+background-image: url(https://img.freepik.com/premium-vector/network-connection-background-abstract-style_23-2148875738.jpg);
+margin-top: 100px;
+box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.register-text{
+  margin-top: 15px;
+  width: 90%;
+  border: 3px solid #555;
+  background-color: rgb(236, 233, 228);
+  margin-bottom: 5px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.log-btn-register{
+  width: 75px;
+  margin-top: 2px;
+  height: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  background-color: skyblue;
+  color: black;
+  border-radius: 5px;
+}
+.log-btn-register:hover{
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+
+}
+.reg-btn{
+  width: 75px;
+  height: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  margin-top: 20px;
+  background-color: skyblue ;
+  color: black;
+  border-radius: 5px;
+}
+.reg-btn:hover{
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+.main{
+  display: flex;
 }
